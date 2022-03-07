@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>기본 레이아웃 02</title>
+    <title>NONFICTION</title>
     <style>
-
         /* reset */
         * {margin:0;padding:0;box-sizing:border-box;font-size:inherit;font-weight:normal;color:inherit;}
         ul,ol {list-style:none;}
@@ -16,71 +15,44 @@
 
         /* basic float layout */
 
-        h1 {font-size:30px;text-align:center;margin-bottom:100px;}
-
+        h1 {
+            font-weight: bold;
+            font-size:30px;
+            text-align:center;
+            margin-bottom:1000px;}
+        
         .sc01 {
             padding:100px 0;
             background-color:#f2f2f2;
             text-align:center;
         }
 
-        .sc01 h2 {
-            font-size:30px;
-            font-weight:bold;
-            margin-bottom:20px;
-        }
-        .sc01>p {
-            font-size:15px;
-            margin-bottom:30px;
-        }
-        .sc01 .container {
-            margin:0 auto;
-            width:1200px;
-        }
         .sc01 .container::after {
             content:"";
             display:block;
             clear:both;
         }
 
-        .sc01 figure {
-            float:left;
-            width:33.333333%;
-            padding:0 15px;
-        }
-
         .sc01 figure img {
-            width:100%;
-            margin-bottom:20px;
+            position: absolute;
+            width:70%;
+            margin-bottom:100px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
-
-        .sc01 figure p {
-            color:#f00;
-            margin-bottom:20px;
-        }
-        .sc01 figure a {
-            display:block;
-            margin:0 auto;
-            width:160px;
-            height:30px;
-            background:#333;
-            color:#fff;
-            line-height:30px;
-            border-radius: 10px;
-        }
-        
         .sc02 {
-            padding:0 100;
-            background-color:rgb(187, 187, 187);
+            padding:100px 0;
+            background-color:#f2f2f2;
             text-align:center;
         }
 
-        .sc02 h3 {
+        .sc02 h2 {
             font-size:30px;
             font-weight:bold;
-            margin-bottom:20px;
+            margin-bottom:15px;
         }
-        .sc02>p {
+        .sc02 >p {
             font-size:15px;
             margin-bottom:30px;
         }
@@ -96,8 +68,8 @@
 
         .sc02 figure {
             float:left;
-            width:25%;
-            padding:0 15px;
+            width:33.333333%;
+            padding:0 10px;
         }
 
         .sc02 figure img {
@@ -106,32 +78,33 @@
         }
 
         .sc02 figure p {
-            color:#000;
-            margin-bottom:20px;
+            font-size:large;
+            color:rgb(0, 0, 0);
+            margin-bottom:10px;
         }
         .sc02 figure a {
+            font-weight:normal;
             display:block;
             margin:0 auto;
-            width:160px;
+            width:180px;
             height:30px;
-            background:#f2f2f2;
-            color:#000;
+            background:#25442F;
+            color:#f2f2f2;
             line-height:30px;
-            border-radius: 10px;
+            border-radius: 100px;
         }
-
         .sc03 {
-            padding:0 100;
-            background-color:#f2f2f2;
+            padding:100px 0;
+            background-color:#DEDEDE;
             text-align:center;
         }
 
-        .sc03 h4 {
+        .sc03 h2 {
             font-size:30px;
             font-weight:bold;
-            margin-bottom:20px;
+            margin-bottom:15px;
         }
-        .sc03>p {
+        .sc03 >p {
             font-size:15px;
             margin-bottom:30px;
         }
@@ -147,8 +120,8 @@
 
         .sc03 figure {
             float:left;
-            width:20%;
-            padding:0 15px;
+            width:25%;
+            padding:0 10px;
         }
 
         .sc03 figure img {
@@ -157,31 +130,33 @@
         }
 
         .sc03 figure p {
-            color:#000;
-            margin-bottom:20px;
+            font-size:large;
+            color:rgb(0, 0, 0);
+            margin-bottom:10px;
         }
         .sc03 figure a {
+            font-weight:normal;
             display:block;
             margin:0 auto;
-            width:160px;
+            width:180px;
             height:30px;
-            background:rgba(193, 204, 175, 0.788);
-            color:#000;
+            background:#25442F;
+            color:#f2f2f2;
             line-height:30px;
-            border-radius: 10px;
+            border-radius: 100px;
         }
         .sc04 {
-            padding:0 100;
-            background-color:rgb(187, 187, 187);
+            padding:100px 0;
+            background-color:#f2f2f2;
             text-align:center;
         }
 
-        .sc04 h5 {
+        .sc04 h2 {
             font-size:30px;
             font-weight:bold;
-            margin-bottom:20px;
+            margin-bottom:15px;
         }
-        .sc04>p {
+        .sc04 >p {
             font-size:15px;
             margin-bottom:30px;
         }
@@ -197,8 +172,8 @@
 
         .sc04 figure {
             float:left;
-            width:16.5%;
-            padding:0 15px;
+            width:20%;
+            padding:0 10px;
         }
 
         .sc04 figure img {
@@ -207,31 +182,33 @@
         }
 
         .sc04 figure p {
-            color:#000;
-            margin-bottom:20px;
+            font-size:large;
+            color:rgb(0, 0, 0);
+            margin-bottom:10px;
         }
         .sc04 figure a {
+            font-weight:normal;
             display:block;
             margin:0 auto;
-            width:160px;
+            width:180px;
             height:30px;
-            background:#333;
-            color:#fff;
+            background:#25442F;
+            color:#f2f2f2;
             line-height:30px;
-            border-radius: 10px;
+            border-radius: 100px;
         }
         .sc05 {
-            padding:0 100;
-            background-color:#f2f2f2;
+            padding:100px 0;
+            background-color:#DEDEDE;
             text-align:center;
         }
 
-        .sc05 h6 {
+        .sc05 h2 {
             font-size:30px;
             font-weight:bold;
-            margin-bottom:20px;
+            margin-bottom:15px;
         }
-        .sc05>p {
+        .sc05 >p {
             font-size:15px;
             margin-bottom:30px;
         }
@@ -248,7 +225,7 @@
         .sc05 figure {
             float:left;
             width:50%;
-            padding:0 15px;
+            padding:0 10px;
         }
 
         .sc05 figure img {
@@ -257,152 +234,124 @@
         }
 
         .sc05 figure p {
-            color:#000;
-            margin-bottom:20px;
+            font-size:large;
+            color:rgb(0, 0, 0);
+            margin-bottom:10px;
         }
         .sc05 figure a {
+            font-weight:normal;
             display:block;
             margin:0 auto;
-            width:160px;
+            width:180px;
             height:30px;
-            background:rgba(193, 204, 175, 0.788);
-            color:#000;
+            background:#25442F;
+            color:#f2f2f2;
             line-height:30px;
-            border-radius: 10px;
+            border-radius: 100px;
         }
     </style>
 </head>
 <body>
-    <h1>기본 레이아웃 01</h1>
-
+    <h1>NONFICTION</h1>
     <section class="sc01">
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, a.</p>
         <div class="container">
             <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure>
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure>
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <img src="../img/main_img01.jpg" alt="">
             </figure>
         </div>
     </section>
-
     <section class="sc02">
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, a.</p>
+        <h2>SHOP ALL</h2>
+        <p>최상의 원료와 섬세한 조향을 바탕으로 신비롭고 독특한 무드를 빚어내는 제품군입니다.</p>
         <div class="container">
             <figure>
                 <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
+            </figure>
+            <figure>
+                <img src="../img/img02.jpg" alt="">
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
             <figure>
                 <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure>
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure>
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-        </div>
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
+            </figure>    
     </section>
 
     <section class="sc03">
-        <h4>Lorem, ipsum dolor.</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, a.</p>
+        <h2>BEST SELLER</h2>
+        <p>최상의 원료와 섬세한 조향을 바탕으로 신비롭고 독특한 무드를 빚어내는 제품군입니다.</p>
         <div class="container">
             <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <img src="../img/img04.jpg" alt="">
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
             <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <img src="../img/img05.jpg" alt="">
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
             <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <img src="../img/img06.jpg" alt="">
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
             <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure>
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <img src="../img/img04.jpg" alt="">
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
     </section>
+
     <section class="sc04">
-        <h5>Lorem, ipsum dolor.</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, a.</p>
+        <h2>BODY CARE</h2>
+        <p>최상의 원료와 섬세한 조향을 바탕으로 신비롭고 독특한 무드를 빚어내는 제품군입니다.</p>
         <div class="container">
             <figure>
                 <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
+            </figure>
+            <figure>
+                <img src="../img/img02.jpg" alt="">
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
             <figure>
                 <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
             <figure>
                 <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
             <figure>
                 <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
             </figure>
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure>
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure> 
-    </section>        
-    <section class="sc05">
-        <h6>Lorem, ipsum dolor.</h6>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, a.</p>
-        <div class="container">
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure>
-            <figure>
-                <img src="../img/img01.jpg" alt="">
-                <p>Lorem, ipsum dolor.</p>
-                <a href="#!">more</a>
-            </figure>
-        </div>
     </section>
+
+    <section class="sc05">
+        <h2>PERFUME</h2>
+        <p>최상의 원료와 섬세한 조향을 바탕으로 신비롭고 독특한 무드를 빚어내는 제품군입니다.</p>
+        <div class="container">
+            <figure>
+                <img src="../img/img08.jpg" alt="">
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
+            </figure>
+            <figure>
+                <img src="../img/img09.jpg" alt="">
+                <p>젠틀나잇</p>
+                <a href="#!">BUY</a>
+            </figure>
+    </div>
 </body>
 </html>
